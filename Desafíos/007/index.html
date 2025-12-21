@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon (1).ico" type="image/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>vc esta vendo a imagem acima? experimente aumentar o tamanho da sua janela para para aproveitar a melhor experiência.</p>
+    <picture>
+       <source media="(max-width: 750px )" srcset="imagem/foto300.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagem/foto700.png" type="image/png">
+          
+        <img src="imagem/foto1024.png" alt="imagem flexível">  
+    </picture>
+
+</body>
+</html>
