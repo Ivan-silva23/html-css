@@ -8,6 +8,12 @@
     body{
         font-family: Arial, Helvetica, sans-serif;
     }
+    tbody > tr:nth-child(even) {         /* efeito zebrado*/
+        background-color: lightgrey; /* pesquisa mais*/
+    }
+    tbody > tr:nth-child(odd){
+        background-color: rgb(176, 197, 219);
+    }
 
     caption{
       font-size: 1.3em;
@@ -57,11 +63,11 @@
       </caption>
     <thead>
       <tr>
-         <th scope="col">Estado</th>  <!--th= tipo um titolo -->
+         <th scope="col">Estado</th>  <!--th= tipo um titulo -->
          <th scope="col" class="plc">população</th>
       </tr>
     </thead>
-                         <!--scope col= pk estado esta na mesma coluna -->
+                         <!--scope col= pk estado esta na mesma coluna. para ajudar o navegador -->
     <tbody>
         <tr>
             <td>Monta legre</td>
